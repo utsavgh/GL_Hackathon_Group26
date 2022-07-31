@@ -9,7 +9,7 @@
 ## Follow the below steps for a Docker Setup
 
 #### Step 1:
-```docker pull utsavgh/gl_hackathon_group_26_dockerhub```
+```docker pull utsavgh/gl_hackathon_group_26_dockerhub:1:0```
 #### Step 2:
 ```docker run -it --name <container_name> -p 8000:8000 utsavgh/gl_hackathon_group_26:1.0```
 

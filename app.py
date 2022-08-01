@@ -83,4 +83,4 @@ def main():
     return render_template('index.html', flag='display: block;', sversion=spark.version, scontext=spark.sparkContext.appName+','+spark.sparkContext.master, surl=spark.sparkContext.uiWebUrl, rmse=trainingSummary.rootMeanSquaredError, r2=trainingSummary.r2, mae=trainingSummary.meanAbsoluteError, mse=trainingSummary.meanSquaredError )
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True, port=8001)
+    app.run(host='0.0.0.0', debug=True, port=8000)
